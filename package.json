@@ -11,7 +11,7 @@
     "passport-facebook": "~1.0.2",
     "passport-github": "^0.1.5",
     "passport-google-oauth": "~0.1.5",
-    "passport-linkedin": "~1.3.24",
+    "passport-linkedin": "~0.1.3",
     "passport-local": "~0.1.6",
     "passport-twitter": "~1.0.2"
   }
