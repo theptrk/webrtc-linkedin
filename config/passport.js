@@ -367,9 +367,9 @@ module.exports = function(passport) {
 	// ==========================================
 	passport.use(new GithubStrategy({
 
-		clientID 				: configAuth.githubAuth.clientID,
-		clientSecret 		: configAuth.githubAuth.clientSecret,
-		callbackURL			: configAuth.githubAuth.callbackURL,
+		clientID 				: configAuth.githubAuthLocal.clientID,
+		clientSecret 		: configAuth.githubAuthLocal.clientSecret,
+		callbackURL			: configAuth.githubAuthLocal.callbackURL,
 		passReqToCallback	: true 
 
 	},
