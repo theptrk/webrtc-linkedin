@@ -31,6 +31,12 @@ module.exports = {
 		'clientID' : 'ac0fcb7a9111e750d6a5',
 		'clientSecret' : 'ab7e04d2619db65ffda898a5f3a57f12fc0e40f4',
 		'callbackURL'		: 'http://127.0.0.1:8080/auth/github/callback'
+	},
+
+	'githubAuthLocal' : {
+		'clientID' : '71fa7222df2d3f7760e0',
+		'clientSecret' : '78253de4a8415c961c9e3e6f2131b76687f15717',
+		'callbackURL'		: 'http://10.4.28.247:8080/auth/github/callback'
 	}
 
 };
