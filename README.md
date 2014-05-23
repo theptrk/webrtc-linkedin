@@ -1,19 +1,6 @@
-Social Log In
+Hackathon Project at Hack Reactor. 
 =========
-Facebook, Twitter, Google, LinkedIn and Local log in capabilities
 
-On sign in, a local user is created and saved to mongodb. The social services is then linked to the local user.
-Once the user is logged in there is the choice to link or unlink social services to this user.
+Allows users to log in with LinkedIn and create chatrooms using the Google Turn servers. Holding 'm' allows users to speak and the video auto-mutes on keyup. 
 
-----
-### API keys ###
-  
-  * config/private_auth.js
 
-  Make sure to keep these keys secret if you decide to fork this repo
-
-### Database ###
-  
-  * config/private_database
-
-	This file holds routing information for the database. MongoHQ and Azure hosted Mongo databases are perfect for this.
